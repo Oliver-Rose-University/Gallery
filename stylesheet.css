@@ -50,6 +50,16 @@ body{
     background-color: cornflowerblue;
 }
     
+.flex-col{
+    flex-direction: column;
+}
+
+.card img {
+    width:150px;
+    height: 150px;
+    border: solid black 0.5vw;
+    border-radius: 1vw;
+}
 
 #party {
     object-position: 50% 50%;
