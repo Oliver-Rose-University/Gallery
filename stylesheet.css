@@ -5,7 +5,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: "Sixtyfour Convergence", sans-serif;
+    font-family: "Edu AU VIC WA NT Guides";
 }
 
 #div1 {
@@ -19,7 +19,6 @@ body{
 
 #heading {
     font-size: calc(2rem + 2vw + 2vh);
-    font-family: "Edu AU VIC WA NT Guides";
     border-style: solid;
     border-color: black;
     border-width: 2vw;
@@ -39,6 +38,18 @@ body{
 .full-width{
     width: 100vw;
 }
+
+.mini-image{
+    object-position: 50% 50%;
+    height: 200px;
+    object-fit: cover;
+    border: solid black 0.5vw;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+    
 
 #party {
     object-position: 50% 50%;
