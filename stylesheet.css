@@ -9,7 +9,6 @@
 }
 
 #div1 {
-    width: 100vw;
     background-color: cornflowerblue;
     height: 400px;
 }
@@ -37,9 +36,12 @@ body{
     align-items: center;
 }
 
+.full-width{
+    width: 100vw;
+}
+
 #party {
     object-position: 50% 50%;
-    width: 70%;
     height: 400px;
     object-fit: cover;
     border: solid black 0.5vw;
