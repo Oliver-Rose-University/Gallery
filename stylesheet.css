@@ -9,18 +9,9 @@
 }
 
 #div1 {
-    justify-content: center;
-    align-items: center;
-    display: flex;
     width: 100vw;
     background-color: cornflowerblue;
     height: 400px;
-}
-
-#div2 {
-    justify-content: center;
-    align-items: center;
-    display: flex;
 }
 
 body{
@@ -38,6 +29,12 @@ body{
     padding-left: 1vw;
     padding-right: 1vw;
     border-radius: 0.5vw;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #party {
