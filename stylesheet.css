@@ -17,6 +17,12 @@
     height: 400px;
 }
 
+#div2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 body{
     background-color: aliceblue;
 }
@@ -37,7 +43,8 @@ body{
 #party {
     object-position: 50% 50%;
     width: 70%;
-    object-fit: contain;
+    height: 400px;
+    object-fit: cover;
     border: solid black 0.5vw;
     border-radius: 1vw;
 }
