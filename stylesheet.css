@@ -1,3 +1,4 @@
+/* Importing Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Sixtyfour+Convergence&display=swap');
 
@@ -29,6 +30,7 @@ body{
     border-radius: 0.5vw;
 }
 
+/* Making various classes to cut down on HTML code */
 .flex-center{
     display: flex;
     justify-content: center;
