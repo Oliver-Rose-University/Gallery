@@ -71,7 +71,7 @@ body{
     border-radius: 1vw;
 }
 
-
+/* The griddy stuff! */
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
